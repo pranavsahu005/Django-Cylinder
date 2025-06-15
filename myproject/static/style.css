@@ -1,0 +1,73 @@
+.container {
+    font-size: 1.2em;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border: 2px solid rgb(119, 20, 20);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px black;
+    margin-left: 200px;
+}
+
+.container h1 {
+    font-size: 2em;
+    color: #640101;
+    margin-top: 20px;
+}
+.container p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.container img {
+    width: 150px;
+    height: 170px;
+    border-radius: 10%;
+    align-items: center;
+    position: relative;
+    top:-200px;
+    left: 200px;
+}
+
+.container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #790101;
+    background-color: #ffacac;
+    color: #325e00;
+    font-size: 1em;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 70px;
+    box-shadow: 2px 3px 10px rgb(182, 180, 180);
+    text-decoration: none;
+}
+
+.container button{
+    justify-content: center;
+    display: flex;
+    top: 500px;
+    left: 200px;
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #acb9ff;
+    color: #d5dbe9;
+    font-size:  25px;
+    box-shadow: 2px 3px 10px rgb(182, 180, 180);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+.container button:hover  {
+    background-color: #8a9eff;
+    color: #ffffff;
+    box-shadow: 2px 3px 10px rgb(100, 100, 100);
+}

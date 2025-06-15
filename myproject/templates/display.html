@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+    <head>
+         <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Volume Of Cylinder </h1>
+        <h3>Recieved by Data</h3>
+        <p>Redius : {{radius}}</p>
+        <p>Height : {{height}}</p>
+        <p>Volume: {{volume}}</p>
+        <img src="{% static 'images/cylinder.jpg' %}" alt="Cylinder Diagram">
+        <button><a href="home.html">Back</a></button>
+        </div>
+    </body>
+</html>
